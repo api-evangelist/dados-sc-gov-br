@@ -1,0 +1,58 @@
+aid: dados-sc-gov-br
+name: Santa Catarina Open Data
+description: >-
+  Santa Catarina Open Data is a state government open-data portal for Brazil running CKAN.
+  It exposes the CKAN catalog API over approximately 112 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dados-sc-gov-br/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - State Government
+  - Brazil
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dados-sc-gov-br:catalog
+    name: Santa Catarina Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Santa Catarina Open Data, covering ~112 datasets. Base URL https://dados.sc.gov.br/api/3/action/.
+    humanURL: https://dados.sc.gov.br
+    baseURL: https://dados.sc.gov.br/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dados.sc.gov.br
+      - type: x-api-endpoint
+        url: https://dados.sc.gov.br/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.8.3'
+common:
+  - type: Website
+    url: https://dados.sc.gov.br
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dados-sc-gov-br-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dados-sc-gov-br-rate-limits.yml
+  - type: FinOps
+    url: finops/dados-sc-gov-br-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
