@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: dados.sc.gov.br
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep  1 02:07:33 2026 GMT
+  hsts: false
+domains:
+- domain: sc.gov.br
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false

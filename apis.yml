@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.8.3'
 common:
+  - type: DomainSecurity
+    url: security/dados-sc-gov-br-domain-security.yml
   - type: Website
     url: https://dados.sc.gov.br
   - type: Documentation
